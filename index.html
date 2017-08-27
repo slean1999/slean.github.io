@@ -337,12 +337,13 @@ url: https://yourname.github.io/xxxxx.github.io/
 root: /xxxxx.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
-</code></pre><p>###4.部署<br>        hexo clean<br>        hexo g -d<br>顺利的话，打开 <a href="https://yourname.github.io/xxxxx.github.io/应该可以看到你bolg了。" target="_blank" rel="external">https://yourname.github.io/xxxxx.github.io/应该可以看到你bolg了。</a></p>
-<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><p>###新建自己的blog</p>
-<p>执行命令,则创建了新的。</p>
+</code></pre><h3 id="4-部署"><a href="#4-部署" class="headerlink" title="4.部署"></a>4.部署</h3><pre><code>hexo clean
+hexo g -d
+</code></pre><p>顺利的话，打开 <a href="https://yourname.github.io/xxxxx.github.io/应该可以看到你bolg了。" target="_blank" rel="external">https://yourname.github.io/xxxxx.github.io/应该可以看到你bolg了。</a></p>
+<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="新建自己的blog"><a href="#新建自己的blog" class="headerlink" title="新建自己的blog"></a>新建自己的blog</h3><p>执行命令,则创建了新的。</p>
 <pre><code>$ hexo new &quot;我的新文章&quot;
-</code></pre><p>###makedown及编辑工具<br>打开文件夹下/soruce/_post/下有.md文件。找个makedown工具编辑你的文章吧。<a href="http://www.appinn.com/markdown/" target="_blank" rel="external">makedown语法</a></p>
-<p>###主题<br>git上有许多主题。我用的是next主题。在/themes/执行命令:</p>
+</code></pre><h3 id="makedown及编辑工具"><a href="#makedown及编辑工具" class="headerlink" title="makedown及编辑工具"></a>makedown及编辑工具</h3><p>打开文件夹下/soruce/_post/下有.md文件。找个makedown工具编辑你的文章吧。<a href="http://www.appinn.com/markdown/" target="_blank" rel="external">makedown语法</a></p>
+<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>git上有许多主题。我用的是next主题。在/themes/执行命令:</p>
 <pre><code>git clone https://github.com/iissnan/hexo-theme-next themes/next
 </code></pre><p>可以看到themes文件夹下多了一个next文件夹。修改刚才的配置文件找到并修改:</p>
 <pre><code># Extensions
@@ -350,7 +351,7 @@ permalink_defaults:
 ## Themes: https://hexo.io/themes/
 theme: next    
 </code></pre><p>执行上面的部署操作，就可以了。</p>
-<p>##遇到的坑与解决<br>遇到最大的坑就是部署到github以后发现图也没有，格式上面的都不对。查了一圈，发现config.yml的uml没有配置。</p>
+<h2 id="遇到的坑与解决"><a href="#遇到的坑与解决" class="headerlink" title="遇到的坑与解决"></a>遇到的坑与解决</h2><p>遇到最大的坑就是部署到github以后发现图也没有，格式上面的都不对。查了一圈，发现config.yml的uml没有配置。</p>
 
           
         
